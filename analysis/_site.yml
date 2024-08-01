@@ -1,0 +1,50 @@
+---
+name: "KODAMA-Analysis"
+output_dir: "../docs"
+navbar:
+  title: "KODAMA-Analysis"
+  left:
+    - text: "Home"
+      href: "index.html"
+    - text: "About"
+      href: "about.html"
+    - text: "Installation"
+      href: "Installation.html"
+    - text: "Single-cell"
+      href: "Single-cell.html"
+    - text: "Simulation"
+      href: "Simulation.html"
+    - text: "Real data analyses"
+      menu:
+        - text: "DLPFC (4 slides)"
+          href: "DLPFC-4.html"
+        - text: "DLPFC (12 slides)"
+          href: "DLPFC-12.html"
+        - text: "Prostate"
+          href: "Prostate.html"
+        - text: "STARmap (Wang et al., 2018)"
+          href: "STARmap.html"
+        - text: "MERFISH (Moffitt et al., 2018)"
+          href: "MERFISH.html"
+        - text: "Visium HD"
+          href: "VisiumHD.html"
+    - text: "Wrapper"
+      menu:
+        - text: "Seurat"
+          href: "Seurat.html"
+        - text: "Giotto"
+          href: "Giotto.html"
+        - text: "SpatialExperiment"
+          href: "SpatialExperiment.html"
+    - text: "License"
+      href: "license.html"
+  right:
+    - icon: "fab fa-github"
+      text: "Source code"
+      href: "https://github.com/tkcaccia/KODAMA-Analysis"
+output:
+  workflowr::wflow_html:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+    highlight: textmate
