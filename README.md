@@ -6,7 +6,7 @@ A [workflowr][] project.
 
 [workflowr]: https://github.com/workflowr/workflowr
 
-[vignette]: https://ModupeOjo.github.io/website-1.0/index.html
+[vignette]: https://modupeojo.github.io/website-1.0/docs/index.html
 
 
 
